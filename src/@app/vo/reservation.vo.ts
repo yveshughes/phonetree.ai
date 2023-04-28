@@ -1,0 +1,33 @@
+export interface ReservationVo {
+    sfid: string;
+    id: number;
+    trip_earnings__c: string,
+    extras__c: string,
+    contact__c: string,
+    trip_end_date_time__c: Date,
+    miles_included__c: string,
+    discount_7_days__c: string,
+    drop_off_description__c: string,
+    delivery_fee__c: string,
+    pickup_description__c: string,
+    name: string,
+    pickup_location__latitude__s: string,
+    isdeleted: boolean,
+    systemmodstamp: Date,
+    discount_early_bird__c: string,
+    trip_days__c: string,
+    drop_off_location__latitude__s: string,
+    trip_price__c: string,
+    turo_fees__c: string,
+    createddate: Date,
+    vehicle__c: string,
+    turo_reservation__c: string,
+    drop_off_location__longitude__s: string,
+    date_time_booked__c: Date,
+    trip_earnings_gross__c: string,
+    pickup_location__longitude__s: string,
+    trip_start_date_time__c: Date,
+    additional_miles_cost__c: string,
+    daily_rate__c: string,
+    miles_driven__c: string
+}
